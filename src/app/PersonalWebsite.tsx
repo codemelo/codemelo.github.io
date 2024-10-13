@@ -13,11 +13,11 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Data Visualization Tool",
-    description: "A Python-based tool for creating interactive data visualizations using matplotlib and seaborn.",
-    link: "https://github.com/yourusername/data-viz-tool",
-    details: "This project leverages the power of matplotlib and seaborn to create stunning, interactive data visualizations. Key features include customizable chart types, responsive design, and easy integration with various data sources. The tool is particularly useful for data analysts and scientists who need to quickly generate insightful visualizations from complex datasets.",
-    technologies: ["Python", "matplotlib", "seaborn", "pandas", "Jupyter Notebook"]
+    title: "Crypto Copy-Trade Bot",
+    description: "This bot automates cryptocurrency copy trading by integrating with Telegram channels, parsing trade signals, and executing trades on Bybit.",
+    link: "https://github.com/codemelo/kimbot",
+    details: "This bot automates trading based on Telegram signals. It monitors specific channels, uses a local AI model to extract trade details, and executes trades via the Bybit API. Trade information is stored in an SQLite database for analysis and tracking.",
+    technologies: ["Python", "Ollama", "Telethon", "pybit", "SQLite"]
   },
   {
     title: "Web Scraper",
@@ -69,8 +69,8 @@ export default function PersonalWebsite() {
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4 text-yellow-400">About Me</h2>
           <p className="max-w-2xl">
-            I'm a passionate Python developer with a keen interest in automation. 
-            My projects reflect my exploration into various aspects of Python programming and automation scripts.
+            I'm a python developer from Sydney, Australia. My main areas of interest are Decentralised Finance, Automation Scripting, and AI. 
+            I enjoy exploring creative ways to automate tasks with speed and efficiency.
           </p>
         </section>
 
