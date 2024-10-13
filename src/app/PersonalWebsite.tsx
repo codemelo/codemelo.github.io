@@ -69,7 +69,7 @@ export default function PersonalWebsite() {
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4 text-yellow-400">About Me</h2>
           <p className="max-w-2xl">
-            I'm a python developer from Sydney, Australia. My main areas of interest are Decentralised Finance, Automation Scripting, and AI. 
+            I`m a python developer from Sydney, Australia. My main areas of interest are Decentralised Finance, Automation Scripting, and AI. 
             I enjoy exploring creative ways to automate tasks with speed and efficiency.
           </p>
         </section>
