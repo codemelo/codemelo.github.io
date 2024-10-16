@@ -15,26 +15,26 @@ const projects: Project[] = [
   {
     title: "Crypto Copy-Trade Bot",
     description: "This bot automates cryptocurrency copy trading by integrating with Telegram channels, parsing trade signals, and executing trades on Bybit.",
-    link: "https://github.com/codemelo/kimbot",
-    details: "This bot automates trading based on Telegram signals. It monitors specific channels, uses a local AI model to extract trade details, and executes trades via the Bybit API. Trade information is stored in an SQLite database for analysis and tracking.",
+    link: "https://github.com/codemelo/kimbot-v1",
+    details: "This bot automates trading based on Telegram signals. It monitors specific channels, uses a local AI model to extract trade details, and places trades via the Bybit API. Trade information is stored in an SQLite database for analysis and tracking.",
     technologies: ["Python", "Ollama", "Telethon", "pybit", "SQLite"]
   },
   {
-    title: "Web Scraper",
-    description: "A web scraping script built with Python and BeautifulSoup to extract data from various websites.",
-    link: "https://github.com/yourusername/web-scraper",
-    details: "This web scraper is designed to efficiently extract data from multiple websites. It uses BeautifulSoup for parsing HTML and requests for handling HTTP requests. The script is configurable to adapt to different website structures and can handle pagination and error scenarios gracefully. It's particularly useful for gathering large datasets for analysis or monitoring.",
-    technologies: ["Python", "BeautifulSoup", "requests", "pandas", "concurrent.futures"]
-  },
-  {
-    title: "Machine Learning Model",
+    title: "IPTV",
     description: "A machine learning model implemented in Python using scikit-learn for predicting stock prices.",
     link: "https://github.com/yourusername/ml-stock-predictor",
     details: "This project implements a machine learning model to predict stock prices based on historical data and various market indicators. It uses scikit-learn for model training and evaluation, with features including data preprocessing, feature engineering, and model selection. The project also includes visualization of predictions and model performance metrics.",
     technologies: ["Python", "scikit-learn", "pandas", "numpy", "matplotlib"]
   },
   {
-    title: "Task Automation Script",
+    title: "Youtube-Spotify Playlist Automator",
+    description: "A Python script that listens for song aditions to a youtube playlist and immediately adds the song to the user's Spotify account.",
+    link: "https://github.com/codemelo/spotitoob",
+    details: "This web scraper is designed to efficiently extract data from multiple websites. It uses BeautifulSoup for parsing HTML and requests for handling HTTP requests. The script is configurable to adapt to different website structures and can handle pagination and error scenarios gracefully. It's particularly useful for gathering large datasets for analysis or monitoring.",
+    technologies: ["Python", "BeautifulSoup", "requests", "pandas", "concurrent.futures"]
+  },
+  {
+    title: "This Website",
     description: "A Python script that automates repetitive tasks using the os and shutil modules.",
     link: "https://github.com/yourusername/task-automator",
     details: "This automation script streamlines repetitive tasks such as file organization, batch renaming, and data backups. It leverages Python's os and shutil modules for file system operations, and includes a simple CLI for user interaction. The script is easily extendable and can be scheduled to run periodically using cron jobs or Windows Task Scheduler.",
@@ -69,7 +69,7 @@ export default function PersonalWebsite() {
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4 text-yellow-400">About Me</h2>
           <p className="max-w-2xl">
-            I`m a python developer from Sydney, Australia. My main areas of interest are Decentralised Finance, Automation Scripting, and AI. 
+            I`m a python developer from Sydney, Australia. My main areas of interest are Automation Scripting, AI, and DeFi. 
             I enjoy exploring creative ways to automate tasks with speed and efficiency.
           </p>
         </section>
