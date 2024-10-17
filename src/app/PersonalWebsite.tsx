@@ -16,11 +16,11 @@ const projects: Project[] = [
     title: "Crypto Copy-Trade Bot",
     description: "This bot automates cryptocurrency copy trading by integrating with Telegram channels, parsing trade signals, and executing trades on Bybit.",
     link: "https://github.com/codemelo/kimbot-v1",
-    details: "This bot automates trading based on Telegram signals. It monitors specific channels, uses a local AI model to extract trade details, and places trades via the Bybit API. Trade information is stored in an SQLite database for analysis and tracking.",
+    details: "This bot automates trading based on Telegram signals. It monitors specific channels, uses a local AI model to extract order details, and places trades via the Bybit API. Trade information is stored in an SQLite database for analysis and tracking.",
     technologies: ["Python", "Ollama", "Telethon", "pybit", "SQLite"]
   },
   {
-    title: "IPTV",
+    title: "IPTV Streamer",
     description: "A machine learning model implemented in Python using scikit-learn for predicting stock prices.",
     link: "https://github.com/yourusername/ml-stock-predictor",
     details: "This project implements a machine learning model to predict stock prices based on historical data and various market indicators. It uses scikit-learn for model training and evaluation, with features including data preprocessing, feature engineering, and model selection. The project also includes visualization of predictions and model performance metrics.",
@@ -34,11 +34,11 @@ const projects: Project[] = [
     technologies: ["Python", "BeautifulSoup", "requests", "pandas", "concurrent.futures"]
   },
   {
-    title: "This Website",
-    description: "A Python script that automates repetitive tasks using the os and shutil modules.",
-    link: "https://github.com/yourusername/task-automator",
-    details: "This automation script streamlines repetitive tasks such as file organization, batch renaming, and data backups. It leverages Python's os and shutil modules for file system operations, and includes a simple CLI for user interaction. The script is easily extendable and can be scheduled to run periodically using cron jobs or Windows Task Scheduler.",
-    technologies: ["Python", "os module", "shutil module", "argparse", "logging"]
+    title: "carmelo.dev",
+    description: "This website's source code and project files.",
+    link: "https://github.com/codemelo/codemelo.github.io",
+    details: "generated a base template with vercel0 AI and modified it to my liking.",
+    technologies: ["React", "Next.js", "HTML", "TypeScript"]
   }
 ]
 
