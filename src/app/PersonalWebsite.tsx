@@ -134,7 +134,7 @@ export default function PersonalWebsite() {
 
       <footer className="bg-yellow-400 text-black py-4">
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <p>&copy; 2024 Carmelo Giuliano. All rights reserved.</p>
+          <p>&copy; 2024 Carmelo Giuliano.</p>
           <div className="flex space-x-4">
             <a href="https://github.com/codemelo" target="_blank" rel="noopener noreferrer" className="hover:text-gray-800">
               <Github size={24} />
