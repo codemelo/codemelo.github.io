@@ -21,24 +21,24 @@ const projects: Project[] = [
   },
   {
     title: "IPTV Streamer",
-    description: "A machine learning model implemented in Python using scikit-learn for predicting stock prices.",
-    link: "https://github.com/yourusername/ml-stock-predictor",
-    details: "This project implements a machine learning model to predict stock prices based on historical data and various market indicators. It uses scikit-learn for model training and evaluation, with features including data preprocessing, feature engineering, and model selection. The project also includes visualization of predictions and model performance metrics.",
-    technologies: ["Python", "scikit-learn", "pandas", "numpy", "matplotlib"]
+    description: "A custom media viewing solution for watching IPTV channels and local media. Designed to be run on a Linux HTPC, complete with remote control functionality.",
+    link: "https://github.com/codemelo/iptv-streamer",
+    details: "[more info here]",
+    technologies: ["Python", "mpv", "Tkinter", "M3U", "Linux"]
   },
   {
     title: "Youtube-Spotify Playlist Automator",
     description: "A Python script that listens for song aditions to a youtube playlist and immediately adds the song to the user's Spotify account.",
     link: "https://github.com/codemelo/spotitoob",
-    details: "This web scraper is designed to efficiently extract data from multiple websites. It uses BeautifulSoup for parsing HTML and requests for handling HTTP requests. The script is configurable to adapt to different website structures and can handle pagination and error scenarios gracefully. It's particularly useful for gathering large datasets for analysis or monitoring.",
-    technologies: ["Python", "BeautifulSoup", "requests", "pandas", "concurrent.futures"]
+    details: "[more info here]",
+    technologies: ["Python", "Spotify API", "requests", "yt-dl"]
   },
   {
     title: "carmelo.dev",
-    description: "This website's source code and project files.",
+    description: "This website's source code and project files. Built using modern web practices and a fully responsive design.",
     link: "https://github.com/codemelo/codemelo.github.io",
-    details: "generated a base template with vercel0 AI and modified it to my liking.",
-    technologies: ["React", "Next.js", "HTML", "TypeScript"]
+    details: "This website has been developed using a modern tech stack of React and Next.js, with Tailwind CSS for responsive styling. The site's design adapts seamlessly to different devices and screen sizes, maintaining a consistent user experience. The site is deployed on GitHub Pages as a static website, utilizing the Next.js static export feature. A GitHub Actions workflow automates the build and deployment process, ensuring the live site is updated whenever changes are pushed to the master branch.",
+    technologies: ["React", "Next.js", "Node.js", "HTML", "Tailwind CSS", "TypeScript", "GitHub Pages"]
   }
 ]
 
@@ -62,15 +62,14 @@ export default function PersonalWebsite() {
     <div className="min-h-screen bg-black text-white">
       <header className="container mx-auto px-4 py-8">
         <h1 className="text-4xl font-bold text-yellow-400">Carmelo Giuliano</h1>
-        <p className="mt-2 text-xl">Python Developer</p>
+        <p className="mt-2 text-xl">Software Developer</p>
       </header>
 
       <main className="container mx-auto px-4 py-8">
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4 text-yellow-400">About Me</h2>
           <p className="max-w-2xl">
-            I`m a python developer from Sydney, Australia. My main areas of interest are Automation Scripting, AI, and DeFi. 
-            I enjoy exploring creative ways to automate tasks with speed and efficiency.
+            {"Hi, I'm Carmelo, a Software Developer from Sydney. My key areas of interest are Automation Scripting, AI, and DeFi. I enjoy exploring creative ways to automate tasks with speed and efficiency. I'm particularly passionate about Python and its diverse applications in my work."}
           </p>
         </section>
 
@@ -137,15 +136,15 @@ export default function PersonalWebsite() {
         <div className="container mx-auto px-4 flex justify-between items-center">
           <p>&copy; 2024 Carmelo Giuliano. All rights reserved.</p>
           <div className="flex space-x-4">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-gray-800">
+            <a href="https://github.com/codemelo" target="_blank" rel="noopener noreferrer" className="hover:text-gray-800">
               <Github size={24} />
               <span className="sr-only">GitHub</span>
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-gray-800">
+            <a href="https://www.linkedin.com/in/carmelogiuliano/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-800">
               <Linkedin size={24} />
               <span className="sr-only">LinkedIn</span>
             </a>
-            <a href="mailto:your.email@example.com" className="hover:text-gray-800">
+            <a href="mailto:carmelo33@proton.me" className="hover:text-gray-800">
               <Mail size={24} />
               <span className="sr-only">Email</span>
             </a>
