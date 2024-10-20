@@ -37,7 +37,7 @@ const projects: Project[] = [
     title: "carmelo.dev",
     description: "This website's source code and project files. Built using modern web practices and a fully responsive design.",
     link: "https://github.com/codemelo/codemelo.github.io",
-    details: "This website has been developed using a modern tech stack of React and Next.js, with Tailwind CSS for responsive styling. The site's design adapts seamlessly to different devices and screen sizes, maintaining a consistent user experience. The site is deployed on GitHub Pages as a static website, utilizing the Next.js static export feature. A GitHub Actions workflow automates the build and deployment process, ensuring the live site is updated whenever changes are pushed to the master branch.",
+    details: "This website has been developed using a modern tech stack of React and Next.js, with Tailwind CSS for responsive styling. The design adapts seamlessly to different devices and screen sizes, maintaining a consistent user experience. The site is deployed on GitHub Pages as a static website, utilizing the static export feature of Next.js. A GitHub Actions workflow automates the build and deployment process, ensuring the live site is updated whenever changes are pushed to the master branch.",
     technologies: ["React", "Next.js", "Node.js", "HTML", "Tailwind CSS", "TypeScript", "GitHub Pages"]
   }
 ]
